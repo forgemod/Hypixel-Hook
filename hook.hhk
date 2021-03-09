@@ -1,0 +1,8 @@
+[var a [:] int<2>]
+[bits 512 / 8 * 8 - 2 + a => (b)]
+[bytes b]
+[org 0xAA55]
+
+[def: hook(process: bool - if process: bool.True [:]
+		
+)]
